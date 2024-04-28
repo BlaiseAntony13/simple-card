@@ -1,0 +1,64 @@
+body{
+    background-color: #FAFAF9;
+}
+.card{
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% ,-50%);
+     background-color: white;
+     width: 368px;
+     border-radius: 10px;
+     padding-top: 0.1px;
+     box-shadow:40px 50px 100px 1px rgba(20, 38, 94, 0.05);
+}
+#cactus{
+    background-image: url("images/cactus.jpg");
+    height: 152px;
+    width: 336px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+#design{
+    font-family: 'Sora';
+    color: #883AE1;
+    background-color: #E6D6FC;
+    width:fit-content;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 16px;
+    font-weight: bold;
+}
+#headings{
+    color: #20293A;
+    font-family: 'Sora';
+    font-size:18px ;
+    margin: 16px;
+    font-weight: bold;
+}
+#para{
+    color: #6C727F;
+    font-family: 'Sora';
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left:16px ;
+    margin-right: 16px;
+    border-width: 1px;
+    border-color: #883AE1;
+    font-size: 14px;
+}
+#name{
+    color: #6C727F;
+    font-family: 'Sora';
+    font-size: 12px;
+    margin-left: 16px;
+    padding-top: 10px;
+    height: 30px;
+}
